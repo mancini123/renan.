@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Minhas Finanças</title>
+</head>
+<body>
+    <h1>Controle Financeiro</h1>
+    
+    <div class="container">
+        <h2>Adicionar Transação</h2>
+        <input type="text" id="descricao" placeholder="Descrição">
+        <input type="number" id="valor" placeholder="Valor">
+        <button onclick="adicionarTransacao()">Adicionar</button>
+    </div>
+
+    <div class="saldo">
+        <h2>Saldo Total: R$ <span id="saldo-total">0</span></h2>
+    </div>
+
+    <div id="lista-transacoes">
+        <!-- As transações serão adicionadas aqui -->
+    </div>
+
+</body>
+</html>
